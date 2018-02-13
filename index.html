@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" viewport="cover">
-    <title>把爱带回家</title>
+    <title>最远的距离 最贴心的温度</title>
     <link rel="icon" href="图片位置" type="image/x-icon"/>
     <style>
         *{
@@ -61,9 +61,12 @@
     </style>
 </head>
 <body>
+<div style='position:relative;left:-999px'>
+    <img src="images/share_small.jpg">
+</div>
 <div class="main">
     <div class="tip">
-        <img src="images/jd_share_tip.png">
+        <img style="width: 620px" src="images/jd_share_tip.png">
     </div>
     <!--<div class="jd-logo">-->
         <!--<img src="images/jd_logo.png" alt="">-->
@@ -94,7 +97,8 @@
 
         $(".btn-movie").click(function () {
             $(".tip").toggle();
-        })
+        });
+
         $(".tip").click(function () {
             $(this).hide();
         })
